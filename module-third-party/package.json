@@ -1,0 +1,16 @@
+{
+  "name": "module-third-party",
+  "version": "1.0.0",
+  "description": "Untuk menginisiasi project menggunakan NPM, kita harus menjalankan beberapa command untuk menginisiasinya",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "postinstall": "node index.js"
+  },
+  "author": "icanq",
+  "license": "ISC",
+  "dependencies": {
+    "cowsay": "^1.5.0"
+  }
+}
